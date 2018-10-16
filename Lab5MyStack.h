@@ -1,4 +1,4 @@
-// Lab5myStack.h
+// Lab5MyStack.h
 // Ben Howe
 // COSC 2030
 // Lab 5
