@@ -2,6 +2,7 @@
 // Ben Howe
 // COSC 2030
 // Lab 5
+// October 22, 2018
 
 #ifndef LAB5MYSTACK_H
 #define LAB5MYSTACK_H
@@ -14,17 +15,16 @@ using std::vector;
 class MyStack
 {
 public:
-	MyStack();
-	~MyStack();
-	bool isEmpty() const;
-	void push(char& c);
-	char pull();
+  MyStack();
+  ~MyStack();
+  bool isEmpty() const;
+  void push(char& c);
+  char pull();
 private:
-	vector <char> myVector;
-	//list <char> myVector;
+  vector <char> myVector;
+  //list <char> myVector;  // For part 5 testing.
 };
 
 
 
 #endif 
-
